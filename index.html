@@ -67,14 +67,14 @@
 
     <!--    HAPPY HOUR
    +++++++++++++++++++++-->
-    <section id="quisommesnous"class="happy_hour_section">
+    <section id="quisommesnous" class="happy_hour_section">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 happy_our_img">
                 </div>
                 <div class="col-md-6 happy_hour_titre">
                     <h2>Une pinte qui fait du bien au porte-monnaie </h2>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+                    <p class="pinte">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
                     </p>
                     <a href="#" class="btn btn-full"><span>Nos bières </span>
                     </a>
@@ -84,8 +84,8 @@
     </section>
     <!--    INFOS
    ++++++++++++++++++++-->
-    <section id="nosservices"class="infos_section">
-        <div class="container">
+    <section id="nosservices" class="infos_section">
+        <div class="container container_service">
             <div class="row">
                 <div class="col-md-12">
                     <h2>Nos services</h2>
@@ -95,8 +95,6 @@
                 <div class="col-md-4">
                     <div class="service_title"><i class="fas fa-hand-spock"></i>
                         <h3>Une équipe à votre écoute</h3>
-                    </div>
-                    <div>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     </div>
 
@@ -104,8 +102,7 @@
                 <div class="col-md-4">
                     <div class="service_title"><i class="fas fa-wine-bottle"></i>
                         <h3>Un large eventail d'alcool</h3>
-                    </div>
-                    <div>
+
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     </div>
                 </div>
@@ -113,8 +110,7 @@
                     <div class="service_title">
                         <i class="fas fa-map-marked-alt"></i>
                         <h3>Accessible facilement</h3>
-                    </div>
-                    <div>
+
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     </div>
                 </div>
@@ -137,8 +133,7 @@
                 <div class="col-md-4">
                     <div class="service_title"><i class="fas fa-clock"></i>
                         <h3>Des horaires indécents</h3>
-                    </div>
-                    <div>
+
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     </div>
                 </div>
@@ -174,36 +169,76 @@
 
     <!--Ils ont aimés
 ++++++++++++++++++++-->
-    <section id=""class="section_like">
-        <div class="container ">
+    <section id="" class="section_like">
+        <div class="container avis_client_full ">
             <div class="row">
-                <div class="col-md-12">
-                    guillemets
+                <div class="col-md-12 liked-title">
+                    <h2>Ils ont adorés</h2>
                 </div>
-                <div class="col-md-12 mon_ancre">
-                    <blocquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.</blocquote>
-                    Justine titekro
-                </div>
-                <div class="col-md-12 avis_photos">
-                <ul>
-                    <li><a href="#monancre" ><img src="/ressources/images/avis1.jpg" alt=""> </a>
-                        
-                    </li>
-                      <li>
-                        <a href=""><img src="/ressources/images/avis2.jpg" alt=""></a>
-                    </li>
-                      <li><a href=""><img src="/ressources/images/avis3.jpg" alt=""></a>
-                    </li>
-                      <li>
-                        <a href=""><img src="/ressources/images/avis4.jpg" alt=""></a>
-                    </li>
-                      <li>
-                        <a href=""><img src="/ressources/images/avis5.jpg" alt=""></a>
-                    </li>
-                      <li>
-                        <a href=""><img src="/ressources/images/avis6.jpg" alt=""></a>
-                    </li>
-                </ul>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 menu">
+                    <ul id="menu-deroulant">
+                        <li><a href="#monancre"><img src="/ressources/images/avis1.jpg" alt=""> </a>
+                            <ul>
+                                <a href="#mon_ancre">
+                                    <div class="commentaire1">
+                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.</blockquote>
+                                        <div class="commentaire_name">Justine titekro</div>
+                                    </div>
+                                </a>
+                            </ul>
+                        </li>
+
+                        <li><a href=""><img src="/ressources/images/avis3.jpg" alt=""></a>
+                            <ul>
+                                <a href="#mon_ancre">
+                                    <div class="commentaire2">
+                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.</blockquote>
+                                        <div class="commentaire_name">Juliette la Pipelette</div>
+                                    </div>
+                                </a>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href=""><img src="/ressources/images/avis4.jpg" alt=""></a>
+                            <ul>
+                                <a href="#mon_ancre">
+                                    <div class="commentaire3">
+                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.</blockquote>
+                                        <div class="commentaire_name">Arnaud Lepauche</div>
+                                    </div>
+                                </a>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href=""><img src="/ressources/images/avis5.jpg" alt=""></a>
+                            <ul>
+                                <a href="#mon_ancre">
+                                    <div class="commentaire4">
+                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.</blockquote>
+                                        <div class="commentaire_name">justine Bridoux</div>
+                                    </div>
+                                </a>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href=""><img src="/ressources/images/avis6.jpg" alt=""></a>
+                            <ul>
+                                <a href="#mon_ancre">
+                                    <div class="commentaire5">
+                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.</blockquote>
+                                        <div class="commentaire_name">André Gueulfort</div>
+                                    </div>
+                                </a>
+
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -220,7 +255,7 @@
             <div class="row contactez_nous_full">
 
                 <div class="col-md-6 map_google mapwrapper">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1391.570345582717!2d4.8328853575095065!3d45.76837060585615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eafe85357a6b%3A0xfb794a4146a635ee!2sL&#39;Abreuvoir!5e0!3m2!1sfr!2sfr!4v1589461275276!5m2!1sfr!2sfr" width="500" height="400" frameborder="0" style="border:;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1391.570345582717!2d4.8328853575095065!3d45.76837060585615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eafe85357a6b%3A0xfb794a4146a635ee!2sL&#39;Abreuvoir!5e0!3m2!1sfr!2sfr!4v1589461275276!5m2!1sfr!2sfr" width="500" height="400" frameborder="0" style="border:;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <form action="">
                     <div class="col-md-6">
@@ -239,9 +274,9 @@
                             <input type="text" id="email" placeholder="ajouter votre email">
 
                         </div>
-                         <div class="col-md-12">
+                        <div class="col-md-12">
                             <label for=""></label>
-                           <textarea name="" id="" cols="40" rows="7"></textarea>
+                            <textarea name="" id="" cols="40" rows="7"></textarea>
 
                         </div>
                     </div>
@@ -376,7 +411,7 @@
                         <ul>
                             <div class="icone-footer">
                                 <li> <a href="https://fr-fr.facebook.com/abreuvoirbar/"><i class="fab fa-facebook-f"></i> </a> </li>
-                                
+
                             </div>
                         </ul>
                     </div>
@@ -384,6 +419,4 @@
             </div>
         </section>
     </footer>
-</body>
-
-</html>
+</body></html>
