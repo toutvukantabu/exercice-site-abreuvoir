@@ -27,14 +27,14 @@ defaut body text    #eee
 */
 /*font
 ++++++++++*/
-font-family: 'Bungee Shade',
+/* font-family : 'Bungee Shade',
 cursive;
 font-family: 'Cabin Sketch',
 cursive;
 font-family: 'Ewert',
 cursive;
 font-family: 'Princess Sofia',
-cursive;
+cursive; */
 
 /* GLOBAL
 ==================================*/
@@ -111,7 +111,7 @@ blockquote {
     font-size: 31px;
     transform-origin: center;
     border-bottom: 1px solid #0e6c0e;
-    padding 0 0 5px;
+    padding: 0 0 5px;
 }
 
 .navbar-brand {
@@ -127,7 +127,7 @@ blockquote {
     opacity: 0.9;
     transition: 0.5s;
     border-bottom: 1px solid #0e6c0e;
-    padding 0 0 5px;
+    padding: 0 0 5px;
 
 }
 
@@ -331,7 +331,7 @@ header {
 }
 
 .diapo4 {
-    background-image: url(../images/t%C3%A9l%C3%A9chargement%201.jpg);
+    background-image: url(images/t%C3%A9l%C3%A9chargement%201.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -703,9 +703,9 @@ mediaquerries
     
     padding-right:150px
 } 
+}
 
-
-@media all and (max-width: 991px) {
+/* @media all and (max-width: 991px) {
     ...
 }
 
@@ -725,4 +725,4 @@ mediaquerries
 
 @media all and (max-width: 575px) {
     ...
-}
+} */
