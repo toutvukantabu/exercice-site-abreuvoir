@@ -303,7 +303,7 @@ header {
 
 .diapo {
 
-    background-image: url(../images/image%20diapo.jpg);
+    background-image: url(images/image%20diapo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:100%;
@@ -313,7 +313,7 @@ header {
 }
 
 .diapo2 {
-    background-image: url(../images/IMG_20161001_154700.jpg);
+    background-image: url(images/IMG_20161001_154700.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -322,7 +322,7 @@ header {
 }
 
 .diapo3 {
-    background-image: url(../images/DSC02326.JPG);
+    background-image: url(images/DSC02326.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -331,7 +331,7 @@ header {
 }
 
 .diapo4 {
-    background-image: url(images/t%C3%A9l%C3%A9chargement%201.jpg);
+    background-image: url(../);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
