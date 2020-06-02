@@ -693,9 +693,7 @@ mediaquerries
         height:300px;
         
     }
-.row_happy-hour{
-flex-direction: column;
-}
+
   
 .service_title p {
     font-size: 15px;
@@ -709,7 +707,6 @@ flex-direction: column;
 
     display: none;
 }
-
 
 }
 
